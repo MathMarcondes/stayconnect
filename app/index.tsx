@@ -1,14 +1,12 @@
-import { Text, View } from "react-native";
+import Header from "./Header";
+import Icon from "./Icons";
+import { Text, View, StyleSheet, StatusBar, FlatList, TouchableOpacity, ScrollView } from "react-native";
 
-export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}>
-      <Text>Testando essa porcaria aqui</Text>
-    </View>
-  );
+
+
+export default function Main() {
+    return(
+      <Header/>
+      
+    )
 }
