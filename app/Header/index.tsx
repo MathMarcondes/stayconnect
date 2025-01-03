@@ -1,4 +1,4 @@
-import {View, Text, StatusBar, TextInput, TouchableOpacity, StyleSheet} from 'react-native';
+import {View, Text, StatusBar, TextInput, TouchableOpacity, StyleSheet, } from 'react-native';
 import AntDesign from '@expo/vector-icons/AntDesign';
 
 
@@ -9,8 +9,7 @@ export default function Header() {
       <TextInput
         style={styles.input}
         placeholder="Inicie sua busca"
-        placeholderTextColor="#555"
-      />
+        placeholderTextColor="#555"/>
        <View style={styles.content}>
         <TouchableOpacity style={styles.button}>
            <AntDesign name="filter" color="#000" size={20} />

@@ -6,7 +6,10 @@ import { Text, View, StyleSheet, StatusBar, FlatList, TouchableOpacity, ScrollVi
 
 export default function Main() {
     return(
+      <View>
       <Header/>
+      <Icon/>
       
+      </View>
     )
 }
