@@ -12,7 +12,7 @@ export default function Header() {
         placeholderTextColor="#555"/>
        <View style={styles.content}>
         <TouchableOpacity style={styles.button}>
-           <AntDesign name="filter" color="#000" size={20} />
+           <AntDesign name="filter" color="#000" size={24} />
 
         </TouchableOpacity>
         </View>
@@ -59,6 +59,9 @@ const styles = StyleSheet.create({
     alignItems: 'flex-end',
     flexDirection: 'row',
     justifyContent: 'space-between'
-},
+   },
+   button:{
+    paddingEnd: 15,
+   }
   
 });
