@@ -42,6 +42,42 @@ export default function Icons() {
                 </View>
                 <Text style={styles.Text}>Lagos</Text>
             </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <MaterialIcons name="maps-home-work" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Vistas Incríveis</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <MaterialCommunityIcons name="home-assistant" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Icônicos</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <Feather name="coffee" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Pousadas</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <MaterialCommunityIcons name="home-circle" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Casa na árvore</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <AntDesign name="picture" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Lagos</Text>
+            </TouchableOpacity>
+            <TouchableOpacity style={styles.actionButton}>
+                <View style={styles.areaButton}>
+                    <MaterialIcons name="maps-home-work" size={24} color="black" />
+                </View>
+                <Text style={styles.Text}>Vistas Incríveis</Text>
+            </TouchableOpacity>
         </ScrollView>
         
         
