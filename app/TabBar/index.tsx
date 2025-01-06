@@ -1,12 +1,13 @@
 import * as React from 'react';
 import { View, useWindowDimensions } from 'react-native';
 import { TabView, SceneMap } from 'react-native-tab-view';
-import Header from '../Header';
-import Body from '../Body';
+
+import Page2 from '../Page2';
+import Page1 from '../Page';
 
 const renderScene = SceneMap({
-  first: Header,
-  second: Body,
+  first: Page1,
+  second: Page2,
 });
 
 const routes = [
