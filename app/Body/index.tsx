@@ -18,8 +18,7 @@ import {StyleSheet, Text, ScrollView} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    paddingBottom: 20
+     flex: 3,
   },
   scrollView: {
     backgroundColor: 'pink',
