@@ -6,20 +6,27 @@ import Header from "./Header";
 import Icons from "./Icons";
 
 import TabViewExample from "./TabBar";
-import ImageView from "./Body";
+import ImageView from "./ImageView";
 
 
 
 
 export default function Main() {
     return(
-      <View>
+      <View style={styles.container}>
         <Header/>
         <Icons/>
         <ImageView/>
+        <TabViewExample/>
       </View>
 
     )
 }
 
+const styles = StyleSheet.create({
+  container:{
+    flex: 1,
+  
+  }
+})
 

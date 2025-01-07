@@ -1,12 +1,11 @@
-import React from 'react';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
-import {SafeAreaView, SafeAreaProvider} from 'react-native-safe-area-context';
-
+import React from "react"
+import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context"
+import { Text, ScrollView, StyleSheet} from "react-native"
 export default function ImageView() {
     return(
     <SafeAreaProvider>
-    <SafeAreaView style={styles.container}>
-      <View>
+    <SafeAreaView>
+      <ScrollView>
         <Text style={styles.title}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -16,7 +15,7 @@ export default function ImageView() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </Text>
-      </View>
+      </ScrollView>
     </SafeAreaView>
   </SafeAreaProvider>
     )
@@ -24,9 +23,7 @@ export default function ImageView() {
 
 
 const styles = StyleSheet.create({
-    container:{
-        flex: 2
-    },
+    
     box:{
         position: 'absolute',
         top: 0.5
