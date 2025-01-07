@@ -4,7 +4,10 @@
 import { Text, View, StyleSheet, StatusBar, FlatList, TouchableOpacity, ScrollView } from "react-native";
 import Header from "./Header";
 import Icons from "./Icons";
-import Body from "./Body";
+
+import TabViewExample from "./TabBar";
+import ImageView from "./Body";
+
 
 
 
@@ -13,8 +16,10 @@ export default function Main() {
       <View>
         <Header/>
         <Icons/>
-        <Body/>
-        
+        <ImageView/>
       </View>
+
     )
 }
+
+
