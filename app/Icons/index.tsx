@@ -89,10 +89,11 @@ export default function Icons() {
 const styles = StyleSheet.create({
     container:{
         maxHeight: 84,
-        marginBottom: 14,
+        marginBottom: 0.04,
         marginTop: 18,
         paddingEnd: 14,
         paddingStart: 14,
+
     },
     actionButton:{
         alignContent: 'center',

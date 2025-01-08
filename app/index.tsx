@@ -4,9 +4,8 @@
 import { Text, View, StyleSheet, StatusBar, FlatList, TouchableOpacity, ScrollView } from "react-native";
 import Header from "./Header";
 import Icons from "./Icons";
-
-import TabViewExample from "./TabBar";
 import ImageView from "./ImageView";
+import TabLayout from "./TabBar";
 
 
 
@@ -17,7 +16,7 @@ export default function Main() {
         <Header/>
         <Icons/>
         <ImageView/>
-        <TabViewExample/>
+        <TabLayout/>
       </View>
 
     )
