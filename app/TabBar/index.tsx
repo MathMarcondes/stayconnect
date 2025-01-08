@@ -2,8 +2,8 @@ import * as React from 'react';
 import { View, useWindowDimensions } from 'react-native';
 import { TabView, SceneMap } from 'react-native-tab-view';
 
-import Page2 from '../Page2';
-import Page1 from '../Page';
+import Page2 from '../Screens/Page2';
+import Page1 from '../Screens/Page';
 
 const renderScene = SceneMap({
   first: Page1,
