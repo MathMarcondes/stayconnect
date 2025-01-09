@@ -1,18 +1,18 @@
-
 import { Text, View, StyleSheet, StatusBar, FlatList, TouchableOpacity, ScrollView } from "react-native";
-import Explorar from "./Explorar";
-import Routes from "./Tabs";
+
+import Header from "./Header";
+import Icons from "./Icons";
+import ImageView from "./ImageView";
 
 
 
-
-
-
-
-export default function Main() {
+export default function Explorar() {
     return(
       <View style={styles.container}>
-        <Routes/>
+        <Header/>
+        <Icons/>
+        <ImageView/>
+
       </View>
 
     )
@@ -21,7 +21,5 @@ export default function Main() {
 const styles = StyleSheet.create({
   container:{
     flex: 1,
-  
   }
 })
-
