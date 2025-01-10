@@ -2,8 +2,9 @@ import React from "react"
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context"
 import { Text, ScrollView, StyleSheet, Image, View} from "react-native"
 
-const Imagpng = require("../Pikachu.png");
-const imagpng2 = require("../charmander.png");
+const Imagpng = require("../001.png");
+const imagpng2 = require("../007.png");
+const imagpng3 = require("../004.png");
 
 
 export default function ImageView() {
@@ -22,45 +23,11 @@ export default function ImageView() {
        When several of these Pokémon gather, their electricity can build and cause lightning storms.
        </Text>
 
-       <Image source={Imagpng} style={styles.image}/>
+       <Image source={imagpng3} style={styles.image}/>
        <Text style={styles.title}>
        When several of these Pokémon gather, their electricity can build and cause lightning storms.
        </Text>
 
-       <Image source={imagpng2} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={Imagpng} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={imagpng2} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={Imagpng} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={imagpng2} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={Imagpng} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
-
-       <Image source={imagpng2} style={styles.image}/>
-       <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
-       </Text>
       </ScrollView>
     </SafeAreaView>
   </SafeAreaProvider>
