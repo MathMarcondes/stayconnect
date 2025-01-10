@@ -15,17 +15,17 @@ export default function ImageView() {
 
        <Image source={Imagpng} style={styles.image}/>
        <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
+       For some time after its birth, it uses the nutrients that are packed into the seed on its back in order to grow.
        </Text>
 
        <Image source={imagpng2} style={styles.image}/>
        <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
+       After birth, its back swells and hardens into a shell. It sprays a potent foam from its mouth.
        </Text>
 
        <Image source={imagpng3} style={styles.image}/>
        <Text style={styles.title}>
-       When several of these Pokémon gather, their electricity can build and cause lightning storms.
+       The flame on its tail shows the strength of its life-force. If Charmander is weak, the flame also burns weakly.
        </Text>
 
       </ScrollView>
