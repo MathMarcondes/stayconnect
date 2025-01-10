@@ -17,8 +17,7 @@ function Routes() {
             screenOptions={{
                 tabBarShowLabel: false,
                 tabBarStyle:{
-                    position: 'absolute',
-                    backgroundColor: '#171626'
+                    
                 }
             }}
         >

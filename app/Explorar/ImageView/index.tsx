@@ -1,20 +1,28 @@
 import React from "react"
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context"
-import { Text, ScrollView, StyleSheet} from "react-native"
+import { Text, ScrollView, StyleSheet, Image, View} from "react-native"
+
+const Imagpng = require("../Pikachu.png");
+
+
 export default function ImageView() {
     return(
     <SafeAreaProvider>
     <SafeAreaView>
       <ScrollView>
         <Text style={styles.title}>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        A GPU RTX sédrie 50 alcança uma fidelidade gráfica superior graças a 
+        sua alta potência de IA, podendo até gerar imagens em alta velocidade 
+        com o NVIDIA Studio. A cereja do bolo, claro, é a melhora de desempenho 
+        com o DLSS 4.
+        Graças ao Hawk Fan, a turbulência e nível de ruído também foram muito 
+        reduzidos enquanto o fluxo de ar aumentou em 12,5%, com a pressão do ar 
+        melhorada em 53,6%. Há uma melhora drástica nas condições de 
+        resfriamento, seguindo a tendência e trabalho dos últimos anos.
         </Text>
+
+       <Image source={Imagpng} style={{width:300, height:300}}/>
+        
       </ScrollView>
     </SafeAreaView>
   </SafeAreaProvider>
